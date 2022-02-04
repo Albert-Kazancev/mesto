@@ -1,0 +1,18 @@
+.card__like-button {
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  border: none;
+  background: #fff;
+}
+
+.card__like-button:hover {
+  opacity: .5;
+}
+
+.card__like-button:active {
+  background-image: url(./images/Heart-active.svg);
+  background-origin: content-box;
+  opacity: 1;
+}
