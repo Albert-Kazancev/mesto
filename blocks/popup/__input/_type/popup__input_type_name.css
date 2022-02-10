@@ -1,5 +1,5 @@
-.popup__author-subline {
-  margin: 0 0 45px;
+.popup__input_type_name {
+  margin: 0 0 27px;
   padding: 0 0 10px;
   font-weight: 400;
   font-size: 14px;
@@ -9,13 +9,13 @@
   border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
-.popup__author-subline::placeholder {
+.popup__input_type_name::placeholder {
   color: #000;
 }
 
 @media screen and (min-width: 620px) {
-  .popup__author-subline {
-    margin-bottom: 48px;
+  .popup__input_type_name {
+    margin-bottom: 28px;
     padding-bottom: 9px;
   }
 }

@@ -1,5 +1,5 @@
-.popup__author {
-  margin: 0 0 27px;
+.popup__input_type_job {
+  margin: 0 0 45px;
   padding: 0 0 10px;
   font-weight: 400;
   font-size: 14px;
@@ -9,13 +9,13 @@
   border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
-.popup__author::placeholder {
+.popup__input_type_job::placeholder {
   color: #000;
 }
 
 @media screen and (min-width: 620px) {
-  .popup__author {
-    margin-bottom: 28px;
+  .popup__input_type_job {
+    margin-bottom: 48px;
     padding-bottom: 9px;
   }
 }
